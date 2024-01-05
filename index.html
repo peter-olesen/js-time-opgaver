@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Site title goes here</title>
-    <meta name="description" content="Site description goes here">
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <title>Tidsøvelse 1</title>
+    <!-- <meta name="description" content="Site description goes here"> -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/scripts.js" defer></script>
 </head>
 <body>
-    <p>This is just a simple "boilerplate" in HTML created at skewl.</p>
-    <p>Use at your own risk!</p>
+    <form id="form-container">
+        <h2>Signup</h2>
+        <label for="firstname">Firstname</label>
+        <input id="firstname" name="firstname" type="name" placeholder="Type your firstname">
+        <label for="lastname">Lastname</label>
+        <input id="lastname" name="lastname" type="name" placeholder="Type your lastname">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Type your email">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Type your desired password">
+        <label for="repeatpassword">Repeat Password</label>
+        <input id="repeatpassword" name="repeatpassword" type="password" placeholder="Repeat said password">
+        <button id="btn-submit">Signup</button>
+    </form>
 </body>
 </html>
